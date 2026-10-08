@@ -9,7 +9,7 @@
  *   npx playwright install chromium
  *
  * Run:
- *   node run-finale.js https://honest-bee-81788.puter.site 
+ *   node run-finale.js https://honest-bee-81788.puter.site
  */
 
 const { chromium } = require('playwright');
@@ -18,7 +18,7 @@ const { chromium } = require('playwright');
 const TARGET_URL =
   process.argv[2] ||
   process.env.TARGET_URL ||
-  'https://honest-bee-81788.puter.site ';
+  'https://honest-bee-81788.puter.site';
 
 const BROWSER_SCRIPT = () => {
   // ============================================================================
