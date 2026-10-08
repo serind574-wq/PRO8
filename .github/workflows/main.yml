@@ -6,7 +6,7 @@ on:
       target_url:
         description: 'Starting website URL'
         required: false
-        default: 'https://honest-bee-81788.puter.site '
+        default: 'https://honest-bee-81788.puter.site'
 
   push:
     branches:
